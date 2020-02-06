@@ -20,6 +20,7 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 \usepackage{multicol}
+\usepackage{hyperref}
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -53,15 +54,15 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
-% \photo[.4pt]{upic.jpg}
+\photo[circle]{upic.jpg}
 \name{Danial}{Alihosseini}
 % \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
 \address{Tehran, Iran}
 
-\mobile{(+98) 920-396-0296}
+\mobile{(+98) 920 396-0296}
 \email{danial.alihosseini@gmail.com}
 \homepage{https://danial-alh.github.io}
-\github{https://github.com/Danial-Alh/}
+\github{https://github.com/danial-alh/}
 % \linkedin{posquit0}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
@@ -98,10 +99,11 @@
 %-------------------------------------------------------------------------------
 % \input{resume/summary.tex}
 \input{resume/education.tex}
-\input{resume/experience.tex}
+\input{resume/projects.tex}
+\input{resume/ta.tex}
+\input{resume/pubs.tex}
 \input{resume/honors.tex}
 \input{resume/presentation.tex}
-\input{resume/pubs.tex}
 
 
 %-------------------------------------------------------------------------------
