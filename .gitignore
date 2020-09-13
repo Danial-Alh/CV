@@ -1,4 +1,7 @@
+*.zip
 *.aux
 *.out
 *.log
 *.gz
+*.pdf
+
